@@ -5,8 +5,6 @@ int	ft_print_nbr(int n)
 	int	count;
 
 	count = 0;
-	if (n == -2147483648)
-		return (ft_print_string("-2147483648"));
 	if (n < 0)
 	{
 		n = -n;
