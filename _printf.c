@@ -46,7 +46,7 @@ int	ft_convert(char c, va_list ap)
 	if (c == 'c')
 		a = ft_putchar(va_arg(ap, int));
 	else if (c == 's')
-        a = ft_putstr(va_arg(ap, char *));
+		a = ft_putstr(va_arg(ap, char *));
 	return (a);
 }
 
@@ -58,24 +58,24 @@ int	ft_convert(char c, va_list ap)
 
 int	_printf(const char *format, ...)
 {
-    va_list	ap;
-    int		i;
-    int		a;
+	va_list	ap;
+	int		i;
+	int		a;
 
-    i = 0;
-    a = 0;
-    va_start(ap, format);
-    while (format && format[i])
-    {
-        if (format[i] == '%')
-        {
-            i++;
-            a += ft_convert(format[i], ap);
-        }
-        else
-            a += ft_putchar(format[i]);
-        i++;
-    }
-    va_end(ap);
-    return (a);
+	i = 0;
+	a = 0;
+	va_start(ap, format);
+	while (format && format[i])
+	{
+		if (format[i] == '%')
+		{
+			i++;
+			a += ft_convert(format[i], ap);
+		}
+		else
+			a += ft_putchar(format[i]);
+		i++;
+	}
+	va_end(ap);
+	return (a);
 }
