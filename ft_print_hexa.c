@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * ft_print_hexa - Entry point
+ *
+ * Return: Always count
+ */
+
+
 int	ft_print_hexa(unsigned int n, const char format)
 {
 	int	count;

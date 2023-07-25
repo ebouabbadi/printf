@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * ft_print_adres - Entry point
+ *
+ * Return: Always count
+ */
+
 int	ft_print_adres(unsigned long n)
 {
 	int	count;
@@ -12,6 +18,12 @@ int	ft_print_adres(unsigned long n)
 		count += ft_adres(n);
 	return (count);
 }
+
+/**
+ * ft_adres - Entry point
+ *
+ * Return: Always count
+ */
 
 int	ft_adres(unsigned long n)
 {

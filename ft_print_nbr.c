@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * ft_print_nbr - Entry point
+ *
+ * Return: Always count
+ */
+
 int	ft_print_nbr(int n)
 {
 	int	count;

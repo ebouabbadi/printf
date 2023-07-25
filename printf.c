@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * ft_cherche_type - Entry point
+ *
+ * Return: Always count
+ */
+
+
 int	ft_cherche_type(const char format, va_list var)
 {
 	int	count;
@@ -21,6 +28,12 @@ int	ft_cherche_type(const char format, va_list var)
 		count += ft_print_adres(va_arg(var, unsigned long));
 	return (count);
 }
+
+/**
+ * _printf - Entry point
+ *
+ * Return: Always count
+ */
 
 int	_printf(const char *format, ...)
 {

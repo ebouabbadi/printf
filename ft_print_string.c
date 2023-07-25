@@ -1,5 +1,12 @@
 #include "main.h"
 
+
+/**
+ * ft_print_string - Entry point
+ *
+ * Return: Always count
+ */
+
 int	ft_print_string(char *str)
 {
 	int	i;

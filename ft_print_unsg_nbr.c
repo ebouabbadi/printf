@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * ft_print_unsg_nbr - Entry point
+ *
+ * Return: Always count
+ */
+
 int	ft_print_unsg_nbr(unsigned int n)
 {
 	int	count;

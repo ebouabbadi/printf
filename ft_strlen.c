@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * ft_strlen - Entry point
+ *
+ * Return: Always count
+ */
+
 int	ft_strlen(char *str)
 {
 	int	i;
