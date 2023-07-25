@@ -71,7 +71,7 @@ int	_printf(const char *format, ...)
 		{
 			i++;
 			a += ft_convert(format[i], ap);
-		}
+		}w
 		else
 			a += ft_putchar(format[i]);
 		i++;

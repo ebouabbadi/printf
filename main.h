@@ -7,7 +7,7 @@
 
 int	ft_putchar(char c);
 int	ft_putstr(char *s);
-int	ft_printf(const char *s, ...);
+int _printf(const char *s, ...);
 int	ft_convert(char c, va_list ap);
 
 #endif
