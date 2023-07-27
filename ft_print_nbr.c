@@ -2,7 +2,7 @@
 
 /**
  * ft_print_nbr - Entry point
- *
+ * @n: arguments.
  * Return: Always count
  */
 

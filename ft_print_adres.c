@@ -2,7 +2,7 @@
 
 /**
  * ft_print_adres - Entry point
- *
+ * @n: The number to print
  * Return: Always count
  */
 
@@ -21,7 +21,7 @@ int	ft_print_adres(unsigned long n)
 
 /**
  * ft_adres - Entry point
- *
+ * @n: The number to print
  * Return: Always count
  */
 

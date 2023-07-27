@@ -2,7 +2,8 @@
 
 /**
  * ft_cherche_type - Entry point
- *
+ * @var: arguments.
+ * @format: arguments.
  * Return: Always count
  */
 
@@ -31,7 +32,7 @@ int	ft_cherche_type(const char format, va_list var)
 
 /**
  * _printf - Entry point
- *
+ * @format: arguments.
  * Return: Always count
  */
 

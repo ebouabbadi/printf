@@ -2,7 +2,7 @@
 
 /**
  * ft_print_char - Entry point
- *
+ * @c: The character to print
  * Return: Always 1
  */
 

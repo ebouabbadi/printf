@@ -2,7 +2,7 @@
 
 /**
  * ft_strlen - Entry point
- *
+ * @str: arguments.
  * Return: Always count
  */
 

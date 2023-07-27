@@ -2,7 +2,8 @@
 
 /**
  * ft_print_hexa - Entry point
- *
+ * @n: arguments.
+ * @format: arguments.
  * Return: Always count
  */
 

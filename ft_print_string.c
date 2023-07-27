@@ -3,7 +3,7 @@
 
 /**
  * ft_print_string - Entry point
- *
+ * @str: arguments.
  * Return: Always count
  */
 
