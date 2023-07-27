@@ -6,7 +6,7 @@
 # include <stdarg.h>
 # include <limits.h>
 
-int		ft_printf(const char *format, ...);
+int	    _printf(const char *format, ...);
 int		ft_cherche_type(const char format, va_list var);
 int		ft_print_char(char c);
 int		ft_print_string(char *str);
