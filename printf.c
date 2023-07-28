@@ -7,10 +7,9 @@
  * Return: Always count
  */
 
-
-int	ft_cherche_type(const char format, va_list var)
+int ft_cherche_type(const char format, va_list var)
 {
-	int	count;
+	int count;
 
 	count = 0;
 	if (format == 'c')
@@ -36,11 +35,11 @@ int	ft_cherche_type(const char format, va_list var)
  * Return: Always count
  */
 
-int	_printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
-	va_list	var;
-	int		i;
-	int		count;
+	va_list var;
+	int i;
+	int count;
 
 	va_start(var, format);
 	count = 0;
@@ -49,6 +48,14 @@ int	_printf(const char *format, ...)
 	{
 		if (format[i] != '%')
 			count += ft_print_char(format[i]);
+		else if (!format || (format[0] == '%' && !format[1]))
+		{
+			return (-1);
+		}
+		else if (format[0] == '%' && format[1] == ' ' && !format[2])
+		{
+			return (-1);
+		}
 		else
 		{
 			count += ft_cherche_type(format[i + 1], var);
